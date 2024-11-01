@@ -1,0 +1,33 @@
+/********************
+** Tabs Accordion Plugin FrontEnd Stylesheet
+********************/
+.tbacc-container-wrap a{ text-decoration: none;color: inherit;box-shadow:none;}
+.tbacc-container-wrap li{ list-style: none;}
+.tbacc-container-wrap{width: 100%;}
+.tbacc-content {width: 96%;margin: 10px auto;}
+.tbacc-tab-titles li.tbacc-title {display: inline-block;margin-right: 3px;padding: 5px 10px;background-color: #000;color: #fff;width: auto;
+line-height: 25px;border-radius: 3px;}
+.tbacc-tab-titles li.tbacc-title a{display: block;box-shadow: none}
+.tbacc-tabs .tbacc-tab-content{display: none;}
+.tbacc-tabs .tbacc-tab-content.tbacc-active{display: inline-block;}
+.tbacc-tabs .tbacc-tab-titles-navigations{display: block;}
+.tbacc-tabs .tbacc-accordion-title{display: none;}
+.tbacc-accordions .tbacc-tab-titles-navigations{display: none;}
+.tbacc-accordions .tbacc-accordion-title{display: block;}
+.tbacc-tabs .tbacc-tab-accordion-content{display: block;}
+
+ul.tbacc-tab-titles {
+    margin-bottom: 0px;
+}
+.tbacc-tab-accordion-content {
+    padding: 25px 15px;
+    line-height: 25px;
+}
+.tbacc-container-wrap a:focus,.tbacc-container-wrap a:visited{outline: none;} 
+.tbacc-accordion-title {
+    width: 100%;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-top: 2px;
+}
+.tbacc-accordion-title a.tbacc-accordion-link{box-shadow: none;display: block;}
